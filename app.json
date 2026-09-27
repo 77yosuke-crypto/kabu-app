@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "kabu-app",
+    "name": "株アプリ",
     "slug": "kabu-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,6 +20,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-secure-store"
+    ],
+    "scheme": "kabuapp"
   }
 }
